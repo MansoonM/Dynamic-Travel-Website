@@ -1,0 +1,126 @@
+/*----package  */
+.mypackage {
+  width: 100%;
+  text-align: center;
+  /* height: 200vh; */
+  padding: 2vh;
+  /* background-color: rgb(226, 235, 235); */
+  /* padding-top: 20vh; */
+  /* box-shadow: 2px 5px 10px lightgrey; */
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+.mypackage .cards {
+  height: 60vh;
+  width: 40vh;
+  margin: 2vh;
+  background-color: white;
+  border-radius: 7px;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 2px 5px 20px lightgrey;
+}
+.mypackage .cards img {
+  width: 40vh;
+  height: 45%;
+  border-radius: 3px;
+  transition: 0.3s ease-in-out;
+}
+.mypackage .cards img:hover {
+  width: 43vh;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.mypackage .cards h4 {
+  margin-top: 1vh;
+  color: grey;
+  font-size: 10px;
+  cursor: pointer;
+}
+.mypackage .cards h3 {
+  margin-top: 4vh;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+}
+.mypackage .cards h1 {
+  margin-top: 2vh;
+  font-size: 23px;
+  cursor: pointer;
+}
+.mypackage .cards p {
+  margin-top: 1.5vh;
+  cursor: pointer;
+}
+.mypackage .cards h5 {
+  margin-top: 1vh;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+}
+.mypackage .cards button {
+  margin-top: 3vh;
+  padding: 1vh 2vh;
+  background-color: rgb(53, 53, 255);
+  color: white;
+  border: 0;
+  border-radius: 3px;
+}
+.mypackage .cards button:hover {
+  cursor: pointer;
+  background-color: rgb(74, 74, 253);
+}
+/* contact */
+.container {
+  height: 110%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.container form {
+  height: 70%;
+  width: 85%;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  /* padding: 0.5vh; */
+  width: 50%;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+textarea {
+  padding: 2vh;
+  width: 50%;
+}
+#btn {
+  background-color: black;
+  color: white;
+  border: 0;
+  font-size: 15x;
+  font-weight: 400;
+  padding: 1vh;
+  transition: 0.4s ease-in-out;
+  border-radius: 1vh;
+}
+
+#btn:hover {
+  cursor: pointer;
+  background-color: rgb(48, 47, 47);
+}
+label {
+  font-size: 17px;
+}

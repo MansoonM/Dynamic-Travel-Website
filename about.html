@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About Trip and Travel</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.min.css"
+    /> -->
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    .container-fluid .navbar-brand {
+      margin-left: 5vh;
+      font-weight: 600;
+    }
+
+    .btn-danger a {
+      color: white;
+      text-decoration: none;
+    }
+    .navbar-nav {
+      margin-left: 40vh;
+    }
+    .container-fluid .collapse button {
+      margin-left: 67vh;
+    }
+    /* about */
+
+.about {
+  height: 550vh;
+  display: flex;
+  color: black;
+  /* background-color: rgb(219, 236, 236); */
+}
+
+.about .about-left {
+  padding-top: 5vh;
+  height: 650vh;
+  width: 65%;
+  /* background-color: rgb(235, 245, 245); */
+}
+.about .about-left h1 {
+  margin-top: 6vh;
+  margin-left: 10vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 7vh;
+}
+.about .about-left h3 {
+  margin-left: 10vh;
+  font-size: 5vh;
+}
+.about .about-left p {
+  margin-left: 10vh;
+  margin-right: 10vh;
+  margin-top: 5vh;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+span {
+  color: rgb(66, 141, 253);
+}
+span:hover {
+  color: rgb(98, 161, 255);
+  cursor: pointer;
+}
+
+.about .about-left img {
+  margin-left: 10vh;
+  margin-top: 5vh;
+  height: 60vh;
+  width: 85%;
+}
+
+/* right---------------------------------------- */
+
+.about .about-right {
+  padding-top: 10vh;
+  height: 650vh;
+  width: 35%;
+
+  /* background-color: rgb(226, 235, 235); */
+  font-family: "Montserrat", sans-serif;
+}
+.about .about-right .righttop {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about .about-right h1 {
+  margin-top: 6vh;
+  margin-left: 10vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 7vh;
+}
+.about .about-right ul {
+  margin-top: 3vh;
+  cursor: pointer;
+}
+.about .about-right ul li:hover {
+  color: rgb(31, 6, 121);
+  text-decoration: underline;
+}
+.about .about-right ul li {
+  padding-top: 1vh;
+  margin-left: 2vh;
+  list-style: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: 0.4s ease-in-out;
+}
+#first {
+  margin-left: 10vh;
+  margin-top: 5vh;
+  height: 80vh;
+  width: 70%;
+}
+.about .about-right img {
+  margin-left: 10vh;
+  margin-top: 5vh;
+  height: 30vh;
+  width: 70%;
+}
+/*  */
+/* */
+/*  */
+.last {
+  height: 100vh;
+  padding-left: 15vh;
+  padding-right: 15vh;
+  background-color: rgb(226, 235, 235);
+}
+.last h1 {
+  padding-top: 8vh;
+  font-size: 4vh;
+  font-family: "Roboto", sans-serif;
+}
+.pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pic img {
+  height: 30vh;
+  width: 50vh;
+}
+.pic1,
+.pic2,
+.pic3 {
+  text-align: center;
+  margin-left: 10vh;
+  margin-top: 5vh;
+}
+
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/TravelWebsite/home.php"
+          >✈ Book Your Travel</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              class="nav-link"
+              aria-current="page"
+              href="/TravelWebsite_1/landing.html"
+              >Home</a
+            >
+            <a class="nav-link active" href="/TravelWebsite_1/about.html"
+              >About</a
+            >
+            <a class="nav-link" href="/TravelWebsite_1/package.html"
+              >Packages</a
+            >
+            <a class="nav-link" href="/TravelWebsite_1/bookings.php"
+              >Bookings</a
+            >
+            <a class="nav-link" href="/TravelWebsite_1/contact.php">Contact</a>
+
+            <button type="button" class="btn btn-danger btn-sm">
+              <a href="/TravelWebsite_1/login.php">LogOut</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+    
+<div class="about">
+  <div class="about-left">
+    <h1>Why Do People Travel ?</h1>
+    <p>Updated: 13/07/2024</p>
+    <img src="/TravelWebsite/5_images/whywetravel1.jpg" alt="" />
+    <p><b>Latest Updated: 13/07/2024</b></p>
+    <p class="side">
+      I often get asked why I want to leave home and travel. Won’t I miss
+      everyone and everything? Won’t I get lonely?
+      <span><b>What am I running away from?</b></span>
+    </p>
+    <br />
+    <p>
+      We all have our reasons for traveling: wanderlust, the love of a
+      different culture, a desire to just leave it all behind, the need to
+      forget, or a want to <span><b>meet new people</b></span
+      >. Travel becomes a way for people to deal with different
+      situations, experience new things, or help search for a sense of
+      self. At its core,
+      <span><b>budget travel is a personal development tool</b></span
+      >. It’s a way for us to grow and learn and connect.
+    </p>
+
+    <p>
+      And because budget travel offers so much to so many different
+      people, travel holds an allure for us all. St. Augustine once, “The
+      world is a book, and he who doesn’t travel reads only one page.” I
+      keep that quote, and a famous one by Mark Twain about having
+      <span><b>no regrets</b></span
+      >, in my mind constantly.
+      <br />
+      <br />In the book of the world, all the pages are different.
+      Everything is new, everything is changing. I believe that is why we
+      travel – <span><b>for the change</b></span
+      >. Whether you’re going to see a pyramid or experience a new
+      culture, whether you are going to get away or to learn, and whether
+      you go for a month or a year, we all go because we seek change. We
+      seek something different. A change of self, attitude, daily routine,
+      or impressions of another culture, change is the one thing travel
+      brings us.
+      <br />
+      <br />
+      The constant change creates a chance for us to come to terms with
+      the world around us and find out who we are.
+      <br /><br />
+      In this modern world of 9-to-5, mortgages, carpools, and bills, our
+      days can get pretty regimented. Under the weight of mindlessly
+      moving from day to day, we often lose track of what’s important to
+      us and what our goals are. We get so caught between commutes and
+      errands or driving the kids to soccer, that we forget how to breathe
+      and smell those roses.
+    </p>
+    <img src="/TravelWebsite/5_images/whywetravel4.jpg" alt="" />
+    <p>
+      When I was working 9-to-5, I could plan out my days months in
+      advance. It was commute, work, gym, sleep, repeat. Yet on the road,
+      every moment represents a new beginning. No day is the same. You
+      can’t plan out what will happen because nothing is set in stone. No
+      commutes, no errands, no scheduled meetings.
+      <span><b>Just you and your wits and the open road</b></span
+      >. <br /><br />
+      Places, cultures, cities, countries were always changing. No day was
+      (or is) ever like the last. In fact, every day is so different, that
+      I sometimes wonder if I haven’t lived three lifetimes already.
+      <br /><br />
+      <span><b>This lifestyle is not for everyone</b></span> but, for
+      those that go, I notice the subtext of change in the reason for
+      their desire to leave. The new, the exciting, the different, and the
+      adventure – it’s all there when you travel. Your days no longer are
+      dictated by business hours, but by the changing winds of your own
+      heart.
+      <br />
+      <br />Out in the sea of freedom, with no compass to guide us, with
+      nothing to force our direction, we all sail onward.
+    </p>
+
+    <br /><br />
+    <img src="/TravelWebsite/5_images/whywetravel3.jpg" alt="" />
+
+    <p>
+      I am in the driver’s seat on this road and, though it’s mostly
+      unseen, I can read the only signpost on it – “Change Ahead” – and do
+      nothing but smile. As I look around at the other drivers on the
+      road, I see them smiling, too. We all smile together, knowing
+      something new is just up around the bend. A new adventure, a new
+      challenge, a new lover, or a new friend.
+      <br /><br />
+      We crave the new right around the next bend.
+      <br /><br />
+      That’s why we travel.
+      <br /><br />
+      And why we’ll never stop.
+    </p>
+
+  
+  </div>
+
+  <div class="about-right">
+    <div class="righttop">
+      <div class="firstul">
+        <ul>
+          <li>Africa</li>
+          <li>Asia</li>
+          <li>America</li>
+          <li>Australia</li>
+          <li>Blogh</li>
+          <li>Blogging Tips</li>
+          <li>Books</li>
+          <li>Canada</li>
+        </ul>
+      </div>
+      <div class="secondul">
+        <ul>
+          <li>Central America</li>
+          <li>Couples Travel</li>
+          <li>Eco-Tourism</li>
+          <li>Europe</li>
+          <li>Family Travel</li>
+          <li>interviews</li>
+          <li>Japan</li>
+          <li>Middla East</li>
+        </ul>
+      </div>
+      <div class="thirdul">
+        <ul>
+          <li>New Zealand</li>
+          <li>Photography</li>
+          <li>Points and Miles</li>
+          <li>South America</li>
+          <li>Travel Advice</li>
+          <li>Travel Lists</li>
+          <li>Travel List</li>
+          <li>Travel Tips</li>
+        </ul>
+      </div>
+    </div>
+    <img id="first" src="/TravelWebsite/5_images/Cover-Ten-Years-A-Nomad.jpg" alt="" />
+    <img src="/TravelWebsite/5_images/Travel_Hacking-sb.jpg" alt="" />
+    <img src="/TravelWebsite/5_images/sidebar-make-money.jpg" alt="" />
+    <img src="/TravelWebsite/5_images/Favorite-Companies.jpeg" alt="" />
+  </div>
+</div>
+
+<div class="last">
+  <h1>
+    Got a comment on this article? Join the conversation on
+    <span>facebook</span>, <span>Instagram</span>, or
+    <span>Twitter</span> and share your thoughts!
+  </h1>
+  <br />
+  <p>
+    Disclosure: Please note that some of the links above may be affiliate
+    links, and at no additional cost to you, I earn a commission if you
+    make a purchase. I recommend only products and companies I use and the
+    income goes to keeping the site community supported and ad free.
+  </p>
+  <br /><br />
+  <h1>
+    ------------------------------------------------- Related
+    Post-------------------------------------------------------
+  </h1>
+  <div class="pic">
+    <div class="pic1">
+      <img src="/TravelWebsite/5_images/matt_africa2-760x440.jpeg" alt="" />
+      <p><b>Does Travel Really Change People?</b></p>
+    </div>
+    <div class="pic2">
+      <img src="/TravelWebsite/5_images/mattgrandcanyon-760x440.jpg" alt="" />
+      <p><b>The Greate American Road Trip</b></p>
+    </div>
+    <div class="pic3">
+      <img src="/TravelWebsite/5_images/17steps3-380x220.jpg" alt="" />
+      <p><b>16 Easy step for planning trips</b></p>
+    </div>
+  </div>
+</div>
+</section>
+    <!-- Bootstrap Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Travel Website</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.min.css"
+    /> -->
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    html,
+    body {
+      height: 100%;
+      height: 100%;
+    }
+    .container-fluid .navbar-brand {
+      margin-left: 5vh;
+      font-weight: 600;
+    }
+
+    .btn-danger a {
+      color: white;
+      text-decoration: none;
+    }
+    .navbar-nav {
+      margin-left: 40vh;
+    }
+    .container-fluid .collapse button {
+      margin-left: 67vh;
+    }
+    
+/* landing-page home */
+.landing-page{
+  height: 160vh;
+  width: 100%;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+/* .landing-page  img {
+  height: 85vh;
+  width: 100%;
+}  */
+
+.landing-page .left-landing-page h1 {
+  color: rgb(0, 0, 0);
+  margin-top: 5vh;
+  padding-left: 5vh;
+  font-size: 7vh;
+  /* background-color: rgb(0, 0, 0, 0.1); */
+ } 
+
+.landing-page img {
+  height: 70vh;
+  width: 50%;
+  margin-left: 23%;
+  padding-bottom:20px;
+}
+
+
+.landing-page .left-landing-page h2 {
+  padding-left: 6vh;
+
+}
+.landing-page .left-landing-page p {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+  /* font-family: monospace; */
+  letter-spacing: 1px;
+  padding-left: 6vh;
+  gap: 1px;
+} 
+.landing-page .left-landing-page span {
+  font-weight: 600;
+  text-decoration: double;
+}
+.landing-page .left-landing-page button {
+  margin-top: 2vh;
+  margin-left: 5vh;
+  padding: 10px;
+  background-color: rgb(60, 42, 216);
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.landing-page .left-landing-page button a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.landing-page .left-landing-page button:hover {
+  cursor: pointer;
+  background-color: rgb(92, 74, 250);
+}
+
+
+/*--------------Footer------------ */
+.footer {
+  width: 100%;
+  height: 55vh;
+  /* background-color: rgb(5, 117, 117); */
+  background-color: rgb(13, 44, 44);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer h2 {
+  font-size: 7vh;
+}
+
+.footer ul li {
+  list-style: none;
+  margin: 2vh;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer .row3 img {
+  padding-left: 5vh;
+  height: 7vh;
+}
+
+/* copyright */
+footer p {
+  background-color: rgb(15, 143, 143);
+  color: white;
+  text-align: center;
+  padding-bottom: 1vh;
+  font-size: smaller;
+}
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/TravelWebsite/home.php"
+          >✈ Book Your Travel</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="/TravelWebsite_1/landing.html"
+              >Home</a
+            >
+            <a class="nav-link" href="/TravelWebsite_1/about.html">About</a>
+            <a class="nav-link" href="/TravelWebsite_1/package.html"
+              >Packages</a
+            >
+            <a class="nav-link" href="/TravelWebsite_1/bookings.php"
+              >Bookings</a
+            >
+            <a class="nav-link" href="/TravelWebsite_1/contact.php">Contact</a>
+
+            <button type="button" class="btn btn-danger btn-sm">
+              <a href="/TravelWebsite_1/login.php">LogOut</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+ <!-- landing page -->
+ <div class="landing-page home">
+  <div class="left-landing-page">
+    <h1>Travel and Enjoy: Let's Start Our Journey</h1>
+    <h2>(Live, Love, Life)</h2>
+    
+    <p>In the book of the world, all the pages are different. <b>Everything is new, everything is changing</b>. I believe that is why we travel – for the change. Whether you’re going to see a pyramid or experience a new culture, whether you are going to get away or to learn, and whether you go for a month or a year, we all go because we seek change. We seek something different. A change of self, attitude, daily routine, or impressions of another culture, change is the one thing travel brings us.</p>
+    <p> <i>Are you guys ready?</i> </p>
+    <!-- <img src="/TravelWebsite/5_images/four members of family.png"  alt="" /> -->
+     <!-- <img src="https://cdn.svgator.com/images/2024/02/big-ben-mixed-media-animation.gif" alt=""> -->
+     <img src="https://cdn.svgator.com/images/2024/02/Animated-Isometric-Construction.gif" alt="">
+    <p>
+      It’s no secret that most people desire to travel much more often
+      than the normal 9-to-5 gives them time for.
+      <span>Traveling</span> is a transformative experience that
+      enriches our lives in countless ways. From discovering new
+      cultures to pushing the limits of our <span>comfort zones</span>,
+      the <span>thrill</span> and <span>adventure</span> of traveling
+      offers an escape from the ordinary. We all have our reasons for traveling: wanderlust, the love of a different culture, a desire to just leave it all behind, the need to forget, or a want to meet new people. Travel becomes a way for people to deal with different situations, experience new things, or help search for a sense of self. At its core, budget travel is a personal development tool. It’s a way for us to grow and learn and connect.
+    </p>
+    <button><a href="/TravelWebsite/about.php">Read More ></a></button>
+  </div>
+</div>
+</div>
+</header>
+
+
+<!---------------------- Footer--------------------------- -->
+
+    <!---------------------- Footer--------------------------- -->
+
+    <footer>
+      <div class="footer">
+        <div class="row1">
+          <h2>Essentials</h2>
+          <ul>
+            <li><a href="/TravelWebsite/about.php">Overview</a></li>
+            <li><a href="/TravelWebsite/package.php">Finding the best</a></li>
+            <li>
+              <a href="https://www.nomadicmatt.com/travel-blogs/why-we-travel/"
+                >Collect info</a
+              >
+            </li>
+            <li>
+              <a href="https://www.nomadicmatt.com/travel-blogs/why-we-travel/"
+                >Experience</a
+              >
+            </li>
+            <li>
+              <a href="https://mansoon-simpleportfolio3.netlify.app"
+                >Portfolio Of Developer</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="row2">
+          <h2>Travel Tips</h2>
+          <ul>
+            <li><a href="/TravelWebsite/package.php">Start Here</a></li>
+            <li><a href="/TravelWebsite/contact.php">Book Your Trip</a></li>
+            <li><a href="/TravelWebsite/about.php">Knowledge about trips</a></li>
+            <li><a href="/TravelWebsite/contact.php">Contact Us</a></li>
+            <li>
+              <a href="https://www.nomadicmatt.com/travel-blogs/why-we-travel/"
+                >Take help of Other sites</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="row3">
+          <br />
+          <br />
+          <br />
+          <h2>Follow Us</h2>
+          <ul>
+            <li>
+              <a href=""
+                ><img src="/TravelWebsite/5_images/Social Media/facebook (1).png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="/TravelWebsite/5_images/Social Media/github.png" alt=""
+              /></a>
+            </li>
+
+            <li>
+              <a href=""
+                ><img src="/TravelWebsite/5_images/Social Media/instagram (1).png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="/TravelWebsite/5_images/Social Media/linkedin.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p>@Copyright 2024 Book Your Travel.</p>
+    </footer>
+
+
+
+    <!-- Bootstrap Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
